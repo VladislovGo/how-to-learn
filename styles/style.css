@@ -8,9 +8,9 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.test {
+/*.test {
   border:1px solid red;
-} 
+} */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -18,10 +18,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  right: 0;
   position: relative;
   background-color: #f2f2f2;
-  margin: 0;
   overflow: hidden;
 }
 .logo_place_header {
@@ -251,4 +249,56 @@
   top: 0;
   width: 877px;
   height: 877px;
+}
+.footer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  padding-top: 60px;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer__author {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.logo_place_footer {
+  height: 32px;
+  width: 228px;
+}
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
