@@ -1,8 +1,7 @@
 .header__link {
-    position: absolute;
     color: #2f80ed;
     text-decoration: none;
-    margin-left: 5px;
+    margin:0px;
     transition:0.15s linear;
   } 
   .header__link:hover {
